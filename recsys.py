@@ -1,7 +1,8 @@
 import numpy as np
 from lightfm.datasets import fetch_movielens
 from lightfm import LightFM
-# Choose data points with min rating of 4.0 or above
+# Choose data points with min rating of 4.0 or above 
+# fetch_movielens is a csv file that contains 110 movies from 1k users
 data = fetch_movielens(min_rating = 4.0)
 
 # Uses content + collaborative system
